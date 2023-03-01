@@ -43,4 +43,4 @@ function AnimeScan() {
 (_a = exec(`python detect.py ../cache/cringes.png ../cache/s.jpg`).stdout) === null || _a === void 0 ? void 0 : _a.on("data", (data) => __awaiter(void 0, void 0, void 0, function* () {
     console.log(data);
 }));
-client.login("ODMzOTQ3NjkwNjg4ODM5Njgw.G0hApx.jP7CZE0c4jfHiJnRDYUjEKOXX6oh153XZrs1TU");
+client.login("");

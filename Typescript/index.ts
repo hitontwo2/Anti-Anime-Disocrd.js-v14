@@ -38,5 +38,5 @@ async function AnimeScan(attachment) {
 exec(`python detect.py ../cache/cringes.png ../cache/s.jpg`).stdout?.on("data", async data => {
     console.log(data)
 })
-client.login("ODMzOTQ3NjkwNjg4ODM5Njgw.G0hApx.jP7CZE0c4jfHiJnRDYUjEKOXX6oh153XZrs1TU")
+client.login("")
 
